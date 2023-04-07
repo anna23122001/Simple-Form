@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form</title>
+   
+
+</head>
+<body>
+    <h1>Form</h1>
+    <a href="http://home">Home</a>
+    <form>
+        <fieldset>
+            <legend>
+                Особисті дані</legend>
+                <div>
+                    <label for="name">Ім'я</label>
+                    <input id="name" />
+                    </div>
+        
+                    <div><label for="lastName">Фамілія</label>
+                    <input  id="lastName" />
+                    </div>
+                    <div>
+                        <label for="datetime-local">Дата народження</label>
+                        <input type="datetime-local">
+                    </div>
+                    <div>
+                        <label for="male">чоловіча</label>
+                    <input type="radio" id="male" value="male" name="gender">   </div>
+
+                     <div> <label for="female">жіноча</label>
+                        <input type="radio" id="female" value="female" name="gender">
+                    </div>
+                </fieldset>
+     
+                <fieldset>
+                    <legend>
+                        Адресні дані</legend>
+                        <div>
+                            <label for="city">Місто</label>
+                            <select>
+                                <option value="">Kyiv</option>
+                                <option value="">Berlin</option>
+                                <option value="">Warsaw</option>
+                            </select>
+                            </div>
+                
+                            <div><label for="street">Вулиця</label>
+                            <input  id="street" />
+                            </div>
+                            <div>
+                                <label for="Adress">Номер будинку</label>
+                                <input type="Adress">
+                            </div>
+                            <div>
+                                <label for="adressa">Квартира</label>
+                                <input type="adressa">
+                            </div>
+                        </fieldset>
+   
+                        <fieldset>
+                            <legend>
+                                Контактні дані</legend>
+                                <div>
+                                     <label for="tel">Номер телефону</label>
+                                     <input type="tel">
+                                    </div>
+                        
+                                    <div><label for="tel">Робочий</label>
+                                        <input type="tel">
+                                    </div>
+                                    <div>
+                                        <label for="tel">Домашній</label>
+                                        <input type="tel">
+                                    </div>
+                                    <div><label for="email">Електронна адреса</label>
+                                        <input autofocus id="email" type="email" />
+                                        </div>  
+                                </fieldset>
+              <div><input type="reset" value="Cancel">
+                <input type="submit" value="Ok"></div>
+                    
+        </form>
+</body>
+</html>
