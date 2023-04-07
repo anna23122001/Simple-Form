@@ -17,19 +17,19 @@
                 Особисті дані</legend>
                 <div>
                     <label for="name">Ім'я</label>
-                    <input id="name" />
-                    </div>
+                    <input id="name" /> </div>
         
                     <div><label for="lastName">Фамілія</label>
                     <input  id="lastName" />
                     </div>
                     <div>
-                        <label for="datetime-local">Дата народження</label>
-                        <input type="datetime-local">
+                        <label for="date">Дата народження</label>
+                        <input type="date"  id="date">
                     </div>
                     <div>
                         <label for="male">чоловіча</label>
-                    <input type="radio" id="male" value="male" name="gender">   </div>
+                    <input type="radio" id="male" value="male" name="gender"> 
+                  </div>
 
                      <div> <label for="female">жіноча</label>
                         <input type="radio" id="female" value="female" name="gender">
@@ -40,24 +40,25 @@
                     <legend>
                         Адресні дані</legend>
                         <div>
-                            <label for="city">Місто</label>
+                            <label for="text">Місто</label>
                             <select>
-                                <option value="">Kyiv</option>
-                                <option value="">Berlin</option>
-                                <option value="">Warsaw</option>
+                                <option value="text">Kyiv</option>
+                                <option value="text">Berlin</option>
+                                <option value="text">Warsaw</option>
                             </select>
                             </div>
                 
-                            <div><label for="street">Вулиця</label>
-                            <input  id="street" />
+                            <div>
+<label for="text">Вулиця</label>
+                            <input  id="text" />
                             </div>
                             <div>
-                                <label for="Adress">Номер будинку</label>
-                                <input type="Adress">
+                                <label for="text">Номер будинку</label>
+                                <input type="text">
                             </div>
                             <div>
-                                <label for="adressa">Квартира</label>
-                                <input type="adressa">
+                                <label for="text">Квартира</label>
+                                <input type="text">
                             </div>
                         </fieldset>
    
@@ -65,19 +66,20 @@
                             <legend>
                                 Контактні дані</legend>
                                 <div>
-                                     <label for="tel">Номер телефону</label>
-                                     <input type="tel">
+                                    <label for="phone">Номер телефону</label>
+                                    <input type="number" id="phone" name="phone">
                                     </div>
                         
-                                    <div><label for="tel">Робочий</label>
-                                        <input type="tel">
+                                    <div><label for="workphone">Робочий</label>
+                                        <input type="number" id="workphone" name="phone">
                                     </div>
                                     <div>
-                                        <label for="tel">Домашній</label>
-                                        <input type="tel">
+                                        <label for="homephone">Домашній</label>
+                    <input type="number" id="homephone" name="phone">
                                     </div>
-                                    <div><label for="email">Електронна адреса</label>
-                                        <input autofocus id="email" type="email" />
+                                    <div>
+<label for="email">Електронна адреса</label>
+  <input type="email" id="email" name="email">
                                         </div>  
                                 </fieldset>
               <div><input type="reset" value="Cancel">
